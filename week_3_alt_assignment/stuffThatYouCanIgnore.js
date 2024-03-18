@@ -24,4 +24,4 @@ app.use(
 );
 app.use('/static', express.static('./static'))
 
-module.exports = app;
+module.exports = app; 
