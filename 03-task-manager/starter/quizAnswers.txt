@@ -1,0 +1,5 @@
+1) Middleware is a handler that "sits in the middle" of request-response cycle, allowing req-res manupulating before route handler.
+2) CRUD stands for Create-Remove-Update-Delete basic operations
+3.1) According to Twelve-Factors conventions, Factor #3 states that config should be separated from the code (separate environment)
+     By loading and safely storing our DB's connection string from .env into process.env we secure our data
+3.2) .env content is protected from being added to a GitHub's repository by including it into .gitignore
